@@ -16,7 +16,7 @@ int main(){
 
     }
     return 0;
-    // char ch ;
+    // char ch[100] ;
     // printf("Enter any String:-");
     // scanf("%c",&ch);
     // char s = strrev(ch);
