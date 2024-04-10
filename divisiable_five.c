@@ -8,4 +8,5 @@ int main(){
     }else{
         printf("this number is not divisiable by 5");
     }
+    return 0;
 }
