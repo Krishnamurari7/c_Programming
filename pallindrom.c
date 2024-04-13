@@ -3,7 +3,7 @@ int main(){
     int sum= 0,num,c , r;
     printf("Enter Any Number :-");
     scanf("%d",&num); //num=123
-    c = num ;
+    c = num ;    //123=321
     while(num>0){
         r = num%10;// r = 123%10 = 3
         sum = r+(sum*10); // sum = 0+3 = 3
