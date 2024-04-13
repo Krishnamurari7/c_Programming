@@ -14,7 +14,7 @@ int main(){
 
     while(num>0){ 
         a = num%10;  //a= 153/10 = 3   //a= 15%
-        arm = a*a+arm ;  // arm = (3*3*3)+0 = 27
+        arm = (a*a*a)+arm ;  // arm = (3*3*3)+0 = 27
         num = num/10;  //num = 15 // num = 1
     }
     if(str == arm){
